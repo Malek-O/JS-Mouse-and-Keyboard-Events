@@ -18,6 +18,24 @@ function filterByٌRound() {
     }
 }
 
+function filterWinner() {
+    let checkbox = document.getElementById("box");
+    let value = checkbox.checked;
+    if (value) {
+        let tables = document.querySelectorAll(".match");
+        for (tables of tables) {
+            let rows = document.querySelectorAll("tbody tr");
+            Filter(rows, 3, "نعم");
+        }
+    } else {
+        let tables = document.querySelectorAll(".match");
+        for (tables of tables) {
+            let rows = document.querySelectorAll("tbody tr");
+            Filter(rows, 1, "");
+        }
+    }
+}
+
 function Filter(rows, column, word) {
     for (let i = 0; i < rows.length; i++) {
         let td;
