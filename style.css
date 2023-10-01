@@ -1,0 +1,67 @@
+body {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.conatiner {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+h1 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-block: 1rem;
+}
+
+.match {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: clamp(20vw, 90vw, 50rem);
+    margin: 0 auto;
+}
+
+.match td,
+.match th {
+    border: 2px solid #ddd;
+    padding: 8px;
+    color: black;
+
+}
+
+.match tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.match tr:nth-child(odd) {
+    background-color: #807f7f;
+}
+
+.match tr:hover {
+    background-color: #ddd;
+}
+
+.match th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #1e422d;
+    color: white;
+
+}
+
+.day {
+    margin-top: 4rem;
+}
+
+.inputs input {
+    font-size: 1.3rem;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+}
+
+.inputs select {
+    font-size: 1.3rem;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Mouse and Keyboard Events</title>
+</head>
+
+<body>
+
+
+    <div class="conatiner">
+        <div class="inputs" dir="rtl">
+            <input onkeyup="filterTeam()" type="text" placeholder="ابحث بأسم الفريق" id="search">
+            <select class="selectRound" onchange="filterByٌRound()" name="" id="">
+                <option value="">الكل</option>
+                <option value="9">الجولة 9</option>
+                <option value="10">الجولة 10</option>
+            </select>
+        </div>
+        <div class="day">
+            <h1>الخميس، 2023/10/05</h1>
+            <table class="match">
+                <tr>
+                    <th>الوقت</th>
+                    <th>الفرق</th>
+                    <th>الجولة</th>
+                </tr>
+                <tr>
+                    <td>3:00 PM</td>
+                    <td class="data">ضمك vs الحزم</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>6:00 PM</td>
+                    <td class="data">الشباب vs الرياض</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>6:00 PM</td>
+                    <td class="data">الطائي vs التعاون</td>
+                    <td>9</td>
+                </tr>
+            </table>
+        </div>
+        <div class="day">
+            <h1>الجمعة، 2023/10/06</h1>
+            <table class="match">
+                <tr>
+                    <th>الوقت</th>
+                    <th>الفرق</th>
+                    <th>الجولة</th>
+                </tr>
+                <tr>
+                    <td>6:00 PM</td>
+                    <td class="data">ابها vs النصر</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>9:00 PM</td>
+                    <td class="data">الاتحاد vs الاهلي</td>
+                    <td>9</td>
+                </tr>
+            </table>
+        </div>
+        <div class="day">
+            <h1>السبت، 2023/10/21</h1>
+            <table class="match">
+                <tr>
+                    <th>الوقت</th>
+                    <th>الفرق</th>
+                    <th>الجولة</th>
+                </tr>
+                <tr>
+                    <td>6:00 PM</td>
+                    <td class="data">ضمك vs النصر</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>9:00 PM</td>
+                    <td class="data">الوحده vs الاهلي</td>
+                    <td>10</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
